@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Lab 2 AR asset: Storyboard and Spatial UI</title>
+  <desc id="desc">A high-contrast tracked plane grid with three anchor points for the lab.</desc>
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <path d="M120 520 L600 250 L1080 520 L600 640 Z" fill="#edf4fb" stroke="#a9bfd8" stroke-width="3"/>
+  <g stroke="#c7d8ea" stroke-width="2"><path d="M120 520 L600 250"/><path d="M216 520 L600 250"/><path d="M312 520 L600 250"/><path d="M408 520 L600 250"/><path d="M504 520 L600 250"/><path d="M600 520 L600 250"/><path d="M696 520 L600 250"/><path d="M792 520 L600 250"/><path d="M888 520 L600 250"/><path d="M984 520 L600 250"/><path d="M1080 520 L600 250"/><path d="M648 277 L552 277"/><path d="M696 304 L504 304"/><path d="M744 331 L456 331"/><path d="M792 358 L408 358"/><path d="M840 385 L360 385"/><path d="M888 412 L312 412"/><path d="M936 439 L264 439"/><path d="M984 466 L216 466"/><path d="M1032 493 L168 493"/><path d="M1080 520 L120 520"/></g>
+  <g fill="#10b981" stroke="#ffffff" stroke-width="7">
+    <circle cx="420" cy="470" r="28"/><circle cx="600" cy="380" r="28"/><circle cx="780" cy="470" r="28"/>
+  </g>
+  <g font-family="Arial" text-anchor="middle"><text x="600" y="92" font-size="24" font-weight="700" fill="#10b981">LAB 02</text><text x="600" y="138" font-size="38" font-weight="700" fill="#161b26">Storyboard and Spatial UI</text><text x="600" y="180" font-size="20" fill="#5b6372">LOCAL AR ASSET · TRACKED PLANE AND ANCHOR EVIDENCE</text></g>
+</svg>

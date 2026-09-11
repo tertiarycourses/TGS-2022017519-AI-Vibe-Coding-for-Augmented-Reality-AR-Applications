@@ -1,0 +1,6 @@
+dimension,AR contract,VR contract,technical consequence
+environment,real-world camera,fully virtual scene,AR must preserve real-world visibility
+tracking,hit-test and anchors,local-floor and guardian,reference spaces are not interchangeable
+input,touch or controller ray,tracked controllers or hands,VR needs locomotion and reach rules
+safety,environment awareness,play-area boundary,VR must manage collision and comfort
+performance,60 FPS target,72 FPS or headset target,VR frame misses affect both eyes

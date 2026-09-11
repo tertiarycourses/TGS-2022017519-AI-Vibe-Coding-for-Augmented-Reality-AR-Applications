@@ -1,0 +1,38 @@
+{
+  "schema": "ar-vr-vibe-scene/v1",
+  "title": "Lab 8: Runtime Review, Optimisation and Handover",
+  "targetMode": "ar",
+  "environment": "real-world-overlay",
+  "tracking": {
+    "plane": "horizontal",
+    "placement": "hit-test",
+    "anchorPersistence": "session"
+  },
+  "appearance": {
+    "primary": "#dc2626",
+    "lighting": "studio",
+    "background": "transparent"
+  },
+  "content": {
+    "subject": "building",
+    "instances": 5,
+    "callouts": 5,
+    "scaleMetres": 0.65
+  },
+  "behaviour": {
+    "motion": "rotate",
+    "interaction": "select",
+    "labels": true
+  },
+  "performance": {
+    "targetFps": 60,
+    "drawCallBudget": 40,
+    "triangleBudget": 80000
+  },
+  "accessibility": {
+    "highContrastLabels": true,
+    "reducedMotionToggle": true,
+    "seatedFallback": false
+  },
+  "source": "labs/lab-08-runtime-review-optimisation-and-handover/vibe-script.md"
+}

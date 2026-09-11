@@ -1,0 +1,36 @@
+{
+  "schema": "ar-vr-vibe-scene/v1",
+  "title": "Lab 3: WebXR Capability and Equipment Gate",
+  "targetMode": "desktop",
+  "environment": "desktop-preview",
+  "tracking": {
+    "orbitCamera": true
+  },
+  "appearance": {
+    "primary": "#7c3aed",
+    "lighting": "studio",
+    "background": "#eef4fa"
+  },
+  "content": {
+    "subject": "product",
+    "instances": 2,
+    "callouts": 2,
+    "scaleMetres": 0.65
+  },
+  "behaviour": {
+    "motion": "idle",
+    "interaction": "select",
+    "labels": true
+  },
+  "performance": {
+    "targetFps": 60,
+    "drawCallBudget": 40,
+    "triangleBudget": 80000
+  },
+  "accessibility": {
+    "highContrastLabels": true,
+    "reducedMotionToggle": true,
+    "seatedFallback": false
+  },
+  "source": "labs/lab-03-webxr-capability-and-equipment-gate/vibe-script.md"
+}

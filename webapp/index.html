@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f8fafc" />
+    <meta name="description" content="A localhost WebXR studio for generating and reviewing AR and VR scenes with natural-language prompts." />
+    <title>AR/VR Vibe Studio</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#workspace">Skip to workspace</a>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">TGS-2022017519 · LOCALHOST WEBXR LAB</p>
+        <h1>AR/VR Vibe Studio</h1>
+      </div>
+      <div class="status-cluster" aria-label="Runtime status">
+        <span class="status-dot" id="runtime-dot"></span>
+        <span id="runtime-status">Desktop preview ready</span>
+      </div>
+    </header>
+
+    <main id="workspace" class="workspace">
+      <section class="panel controls" aria-labelledby="prompt-heading">
+        <div class="panel-heading">
+          <div>
+            <p class="step-label">01 · VIBE PROMPT</p>
+            <h2 id="prompt-heading">Describe the spatial experience</h2>
+          </div>
+          <button id="reset-button" class="icon-button" type="button" title="Reset scene" aria-label="Reset scene">↺</button>
+        </div>
+
+        <label for="scene-prompt">Scene request</label>
+        <textarea id="scene-prompt" rows="6">Create a blue maintenance guide in AR with a turbine, three numbered callouts, soft studio light, and slow rotation.</textarea>
+        <p class="field-help">Try a mode, colour, object, count, lighting, and behaviour. The parser emits a reviewable scene contract—never hidden code.</p>
+
+        <div class="template-grid" aria-label="Prompt templates">
+          <button class="template" data-template="ar-maintenance" type="button">AR maintenance</button>
+          <button class="template" data-template="vr-training" type="button">VR training</button>
+          <button class="template" data-template="retail" type="button">Retail preview</button>
+        </div>
+
+        <div class="primary-actions">
+          <button id="generate-button" class="button primary" type="button">Generate scene</button>
+          <button id="randomize-button" class="button secondary" type="button">Variation</button>
+        </div>
+
+        <div class="control-row">
+          <label for="mode-select">Target mode</label>
+          <select id="mode-select">
+            <option value="auto">Infer from prompt</option>
+            <option value="ar">Augmented reality</option>
+            <option value="vr">Virtual reality</option>
+            <option value="desktop">Desktop preview</option>
+          </select>
+        </div>
+
+        <fieldset>
+          <legend>Runtime controls</legend>
+          <label class="switch-row"><input id="grid-toggle" type="checkbox" checked /> Plane/grid evidence</label>
+          <label class="switch-row"><input id="motion-toggle" type="checkbox" checked /> Object motion</label>
+          <label class="switch-row"><input id="labels-toggle" type="checkbox" checked /> Spatial callouts</label>
+        </fieldset>
+
+        <div class="file-actions">
+          <button id="export-button" class="text-button" type="button">Export scene JSON</button>
+          <label class="text-button file-label" for="import-input">Import JSON</label>
+          <input id="import-input" type="file" accept="application/json,.json" hidden />
+        </div>
+      </section>
+
+      <section class="viewport-card" aria-labelledby="preview-heading">
+        <div class="viewport-toolbar">
+          <div>
+            <p class="step-label">02 · LIVE RUNTIME</p>
+            <h2 id="preview-heading">Spatial preview</h2>
+          </div>
+          <div class="metric"><span id="fps-value">--</span><small>FPS</small></div>
+        </div>
+        <div id="xr-stage" role="img" aria-label="Interactive three-dimensional preview of the generated AR or VR scene"></div>
+        <div class="xr-actions" aria-label="Immersive mode launchers">
+          <div id="ar-button-slot"></div>
+          <div id="vr-button-slot"></div>
+          <button id="capture-button" class="capture-button" type="button">Save preview PNG</button>
+          <p id="xr-note">Immersive WebXR requires a supported device and secure context. Desktop preview remains available.</p>
+        </div>
+      </section>
+
+      <aside class="panel inspector" aria-labelledby="inspector-heading">
+        <div class="panel-heading">
+          <div>
+            <p class="step-label">03 · VERIFY</p>
+            <h2 id="inspector-heading">Scene contract</h2>
+          </div>
+          <span class="quality-badge" id="quality-score">0/5</span>
+        </div>
+
+        <div class="tab-list" role="tablist" aria-label="Inspector views">
+          <button class="tab active" role="tab" aria-selected="true" aria-controls="contract-panel" id="contract-tab" type="button">JSON</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="checks-panel" id="checks-tab" type="button">Checks</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="storyboard-panel" id="storyboard-tab" type="button">Storyboard</button>
+        </div>
+
+        <div id="contract-panel" class="tab-panel" role="tabpanel" aria-labelledby="contract-tab">
+          <pre id="scene-contract" tabindex="0"></pre>
+        </div>
+        <div id="checks-panel" class="tab-panel hidden" role="tabpanel" aria-labelledby="checks-tab">
+          <ul id="validation-list" class="check-list"></ul>
+        </div>
+        <div id="storyboard-panel" class="tab-panel hidden" role="tabpanel" aria-labelledby="storyboard-tab">
+          <ol id="storyboard-list" class="storyboard-list"></ol>
+        </div>
+
+        <div class="evidence-card">
+          <p class="step-label">ACCEPTANCE EVIDENCE</p>
+          <p id="acceptance-text">Generate a scene to evaluate the contract.</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <span>Runs locally · no prompt leaves this browser</span>
+      <span>WebXR · Three.js · Tertiary Infotech Academy</span>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

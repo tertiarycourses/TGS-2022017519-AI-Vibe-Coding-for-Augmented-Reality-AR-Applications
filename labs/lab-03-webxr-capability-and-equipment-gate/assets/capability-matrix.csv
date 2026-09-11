@@ -1,0 +1,5 @@
+secure_context,navigator_xr,immersive_ar,immersive_vr,route
+true,true,true,false,AR plus desktop fallback
+true,true,false,true,VR plus desktop fallback
+true,true,false,false,Desktop preview with capability message
+false,unknown,false,false,Desktop preview and use localhost or HTTPS

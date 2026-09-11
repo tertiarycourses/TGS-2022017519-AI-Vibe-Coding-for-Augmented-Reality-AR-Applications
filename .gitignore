@@ -1,0 +1,21 @@
+# Credentials and local configuration
+.env
+**/.env
+.claude/
+
+# Trainer-only and source/reference material
+assessment/
+reference/
+course_application/
+courseware/reference/
+
+# Build and dependency output
+**/node_modules/
+**/dist/
+**/.DS_Store
+courseware/slide_map.json
+courseware/technical_anchor_inventory.csv
+
+# Learner-generated evidence
+labs/*/evidence/*
+!labs/*/evidence/.gitkeep

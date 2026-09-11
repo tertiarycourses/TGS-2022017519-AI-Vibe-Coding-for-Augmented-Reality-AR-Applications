@@ -1,0 +1,37 @@
+{
+  "schema": "ar-vr-vibe-scene/v1",
+  "title": "Lab 7: Immersive VR, Controllers and Comfort",
+  "targetMode": "vr",
+  "environment": "room-scale",
+  "tracking": {
+    "origin": "local-floor",
+    "guardian": true
+  },
+  "appearance": {
+    "primary": "#1f6feb",
+    "lighting": "studio",
+    "background": "#eef4fa"
+  },
+  "content": {
+    "subject": "machine",
+    "instances": 4,
+    "callouts": 4,
+    "scaleMetres": 0.65
+  },
+  "behaviour": {
+    "motion": "idle",
+    "interaction": "teleport",
+    "labels": true
+  },
+  "performance": {
+    "targetFps": 72,
+    "drawCallBudget": 40,
+    "triangleBudget": 80000
+  },
+  "accessibility": {
+    "highContrastLabels": true,
+    "reducedMotionToggle": true,
+    "seatedFallback": true
+  },
+  "source": "labs/lab-07-immersive-vr-controllers-and-comfort/vibe-script.md"
+}

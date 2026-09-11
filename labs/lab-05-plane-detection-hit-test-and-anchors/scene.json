@@ -1,0 +1,38 @@
+{
+  "schema": "ar-vr-vibe-scene/v1",
+  "title": "Lab 5: Plane Detection, Hit Test and Anchors",
+  "targetMode": "ar",
+  "environment": "real-world-overlay",
+  "tracking": {
+    "plane": "horizontal",
+    "placement": "hit-test",
+    "anchorPersistence": "session"
+  },
+  "appearance": {
+    "primary": "#10b981",
+    "lighting": "studio",
+    "background": "transparent"
+  },
+  "content": {
+    "subject": "turbine",
+    "instances": 3,
+    "callouts": 3,
+    "scaleMetres": 0.65
+  },
+  "behaviour": {
+    "motion": "idle",
+    "interaction": "select",
+    "labels": true
+  },
+  "performance": {
+    "targetFps": 60,
+    "drawCallBudget": 40,
+    "triangleBudget": 80000
+  },
+  "accessibility": {
+    "highContrastLabels": true,
+    "reducedMotionToggle": true,
+    "seatedFallback": false
+  },
+  "source": "labs/lab-05-plane-detection-hit-test-and-anchors/vibe-script.md"
+}

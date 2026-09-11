@@ -1,0 +1,38 @@
+{
+  "schema": "ar-vr-vibe-scene/v1",
+  "title": "Lab 2: Storyboard and Spatial UI",
+  "targetMode": "ar",
+  "environment": "real-world-overlay",
+  "tracking": {
+    "plane": "horizontal",
+    "placement": "hit-test",
+    "anchorPersistence": "session"
+  },
+  "appearance": {
+    "primary": "#10b981",
+    "lighting": "studio",
+    "background": "transparent"
+  },
+  "content": {
+    "subject": "machine",
+    "instances": 4,
+    "callouts": 4,
+    "scaleMetres": 0.65
+  },
+  "behaviour": {
+    "motion": "idle",
+    "interaction": "tap",
+    "labels": true
+  },
+  "performance": {
+    "targetFps": 60,
+    "drawCallBudget": 40,
+    "triangleBudget": 80000
+  },
+  "accessibility": {
+    "highContrastLabels": true,
+    "reducedMotionToggle": true,
+    "seatedFallback": false
+  },
+  "source": "labs/lab-02-storyboard-and-spatial-ui/vibe-script.md"
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "ar-vr-vibe-scene/v1",
+  "title": "Lab 6: Raycast, Touch and Spatial Feedback",
+  "targetMode": "ar",
+  "environment": "real-world-overlay",
+  "tracking": {
+    "plane": "horizontal",
+    "placement": "hit-test",
+    "anchorPersistence": "session"
+  },
+  "appearance": {
+    "primary": "#7c3aed",
+    "lighting": "studio",
+    "background": "transparent"
+  },
+  "content": {
+    "subject": "robot",
+    "instances": 4,
+    "callouts": 4,
+    "scaleMetres": 0.65
+  },
+  "behaviour": {
+    "motion": "float",
+    "interaction": "tap",
+    "labels": true
+  },
+  "performance": {
+    "targetFps": 60,
+    "drawCallBudget": 40,
+    "triangleBudget": 80000
+  },
+  "accessibility": {
+    "highContrastLabels": true,
+    "reducedMotionToggle": true,
+    "seatedFallback": false
+  },
+  "source": "labs/lab-06-raycast-touch-and-spatial-feedback/vibe-script.md"
+}
