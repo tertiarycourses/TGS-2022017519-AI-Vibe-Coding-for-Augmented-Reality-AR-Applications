@@ -1,7 +1,11 @@
 # Lab 03 — WebXR Capability and Equipment Gate
 
-**Duration:** 60 minutes  
-**Alignment:** LO1 · K3 · K5  
+**Duration:** 60 minutes
+
+**Alignment:** LO1 · K3 · K5
+
+**Try the live Playground:** <https://alfredang.github.io/arvr-playground/>
+
 **Shared runtime:** `../../webapp/` at <http://127.0.0.1:4173>
 
 ## Goal

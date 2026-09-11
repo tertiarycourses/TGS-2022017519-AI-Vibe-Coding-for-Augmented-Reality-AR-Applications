@@ -1,7 +1,7 @@
 # AI Vibe Coding for Augmented Reality (AR) Applications — Learner Guide
 
 **Course code:** `TGS-2022017519`  
-**Version:** v9.0 · 11 September 2026  
+**Version:** v9.1 · 12 September 2026
 **Provider:** Tertiary Infotech Academy Pte Ltd · UEN 201200696W
 
 ## Contents
@@ -43,7 +43,11 @@ Course page: https://www.tertiarycourses.com.sg/wsq-ai-vibe-coding-for-augmented
 - **A3:** Review AR runtimes to identify content errors and opportunities to improve usability and clarity
 - **A4:** Advise application developers on adjustments that improve AR effectiveness
 
-## Localhost AR/VR Vibe Studio
+## AR/VR Playground
+
+**Try it now:** [https://alfredang.github.io/arvr-playground/](https://alfredang.github.io/arvr-playground/) — the static HTML/CSS/JavaScript playground runs in the browser with no installation.
+
+For labs that edit source code, run the local copy at http://127.0.0.1:4173/:
 
 ```bash
 cd webapp
@@ -53,7 +57,7 @@ npm test
 npm run dev
 ```
 
-Open http://127.0.0.1:4173/. Desktop preview is the supported fallback when immersive WebXR is unavailable.
+Desktop preview is the supported fallback when immersive WebXR is unavailable.
 
 ## Technical reference chapters
 
@@ -891,6 +895,8 @@ git diff --check; npm audit; npm test; npm run build
 
 **Duration:** 60 minutes · **Alignment:** LO1 · K3 · A1
 
+**Try the live Playground:** [https://alfredang.github.io/arvr-playground/](https://alfredang.github.io/arvr-playground/)
+
 Translate a workplace requirement and equipment specification into a constrained, testable WebXR scene contract.
 
 Workflow asset: `labs/lab-01-scene-brief-and-prompt-contract/assets/lab-01-tracked-plane.png`
@@ -941,6 +947,8 @@ Full lab folder: `labs/lab-01-scene-brief-and-prompt-contract/`
 
 **Duration:** 75 minutes · **Alignment:** LO1 · K1 · K2 · A2
 
+**Try the live Playground:** [https://alfredang.github.io/arvr-playground/](https://alfredang.github.io/arvr-playground/)
+
 Convert an AR user journey into four observable states and apply readable, reachable spatial UI rules.
 
 Workflow asset: `labs/lab-02-storyboard-and-spatial-ui/assets/lab-02-tracked-plane.png`
@@ -989,6 +997,8 @@ Full lab folder: `labs/lab-02-storyboard-and-spatial-ui/`
 ### Lab 03 — WebXR Capability and Equipment Gate
 
 **Duration:** 60 minutes · **Alignment:** LO1 · K3 · K5
+
+**Try the live Playground:** [https://alfredang.github.io/arvr-playground/](https://alfredang.github.io/arvr-playground/)
 
 Detect browser/device capability and route learners to AR, VR, or desktop fallback without a dead-end experience.
 
@@ -1039,6 +1049,8 @@ Full lab folder: `labs/lab-03-webxr-capability-and-equipment-gate/`
 
 **Duration:** 90 minutes · **Alignment:** LO2 · K4 · K5
 
+**Try the live Playground:** [https://alfredang.github.io/arvr-playground/](https://alfredang.github.io/arvr-playground/)
+
 Build a deterministic Three.js scene graph and explain how transforms, lighting, render loop, and cleanup interact.
 
 Workflow asset: `labs/lab-04-scene-graph-lighting-and-animation/assets/lab-04-tracked-plane.png`
@@ -1087,6 +1099,8 @@ Full lab folder: `labs/lab-04-scene-graph-lighting-and-animation/`
 ### Lab 05 — Plane Detection, Hit Test and Anchors
 
 **Duration:** 90 minutes · **Alignment:** LO2 · K5 · K6
+
+**Try the live Playground:** [https://alfredang.github.io/arvr-playground/](https://alfredang.github.io/arvr-playground/)
 
 Place virtual content on a detected real-world surface using viewer-space hit testing and a visible reticle.
 
@@ -1137,6 +1151,8 @@ Full lab folder: `labs/lab-05-plane-detection-hit-test-and-anchors/`
 
 **Duration:** 75 minutes · **Alignment:** LO2 · K2 · A3
 
+**Try the live Playground:** [https://alfredang.github.io/arvr-playground/](https://alfredang.github.io/arvr-playground/)
+
 Implement selection feedback and diagnose interaction misses using ray origin, direction, target bounds, and state evidence.
 
 Workflow asset: `labs/lab-06-raycast-touch-and-spatial-feedback/assets/lab-06-tracked-plane.png`
@@ -1186,6 +1202,8 @@ Full lab folder: `labs/lab-06-raycast-touch-and-spatial-feedback/`
 
 **Duration:** 75 minutes · **Alignment:** LO3 · K7
 
+**Try the live Playground:** [https://alfredang.github.io/arvr-playground/](https://alfredang.github.io/arvr-playground/)
+
 Convert the same content contract into a VR runtime and distinguish AR overlay constraints from VR room-scale constraints.
 
 Workflow asset: `labs/lab-07-immersive-vr-controllers-and-comfort/assets/lab-07-tracked-plane.png`
@@ -1234,6 +1252,8 @@ Full lab folder: `labs/lab-07-immersive-vr-controllers-and-comfort/`
 ### Lab 08 — Runtime Review, Optimisation and Handover
 
 **Duration:** 90 minutes · **Alignment:** LO3 · A3 · A4
+
+**Try the live Playground:** [https://alfredang.github.io/arvr-playground/](https://alfredang.github.io/arvr-playground/)
 
 Review a generated AR/VR runtime, isolate defects with evidence, implement bounded adjustments, and prepare a reproducible handover.
 
@@ -1289,6 +1309,7 @@ Full lab folder: `labs/lab-08-runtime-review-optimisation-and-handover/`
 ## Source register
 
 - **Official course page:** https://www.tertiarycourses.com.sg/wsq-ai-vibe-coding-for-augmented-reality-ar-applications.html — Course identity, duration, outcomes, topics and current public description (11 September 2026)
+- **AR/VR Playground:** https://alfredang.github.io/arvr-playground/ — Learner-facing static HTML/CSS/JavaScript WebXR practice runtime (12 September 2026)
 - **W3C WebXR Device API:** https://www.w3.org/TR/webxr/ — Session modes, reference spaces, input sources, lifecycle, privacy and comfort (9 June 2026 CRD)
 - **W3C Immersive Web publications:** https://www.w3.org/groups/wg/immersive-web/publications/ — AR, hit-test, lighting and depth module status (11 September 2026)
 - **Three.js WebXRManager:** https://threejs.org/docs/pages/WebXRManager.html — Renderer XR manager, sessions, controllers and reference space (11 September 2026)

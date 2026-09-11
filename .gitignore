@@ -15,6 +15,7 @@ courseware/reference/
 **/.DS_Store
 courseware/slide_map.json
 courseware/technical_anchor_inventory.csv
+courseware/archive/
 
 # Learner-generated evidence
 labs/*/evidence/*

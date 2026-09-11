@@ -1,7 +1,11 @@
 # Lab 04 — Scene Graph, Lighting and Animation
 
-**Duration:** 90 minutes  
-**Alignment:** LO2 · K4 · K5  
+**Duration:** 90 minutes
+
+**Alignment:** LO2 · K4 · K5
+
+**Try the live Playground:** <https://alfredang.github.io/arvr-playground/>
+
 **Shared runtime:** `../../webapp/` at <http://127.0.0.1:4173>
 
 ## Goal

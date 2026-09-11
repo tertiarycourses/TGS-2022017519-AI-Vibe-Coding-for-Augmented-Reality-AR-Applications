@@ -1,7 +1,11 @@
 # Lab 02 — Storyboard and Spatial UI
 
-**Duration:** 75 minutes  
-**Alignment:** LO1 · K1 · K2 · A2  
+**Duration:** 75 minutes
+
+**Alignment:** LO1 · K1 · K2 · A2
+
+**Try the live Playground:** <https://alfredang.github.io/arvr-playground/>
+
 **Shared runtime:** `../../webapp/` at <http://127.0.0.1:4173>
 
 ## Goal

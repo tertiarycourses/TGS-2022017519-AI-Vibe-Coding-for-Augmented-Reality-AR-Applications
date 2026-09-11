@@ -1,7 +1,11 @@
 # Lab 08 — Runtime Review, Optimisation and Handover
 
-**Duration:** 90 minutes  
-**Alignment:** LO3 · A3 · A4  
+**Duration:** 90 minutes
+
+**Alignment:** LO3 · A3 · A4
+
+**Try the live Playground:** <https://alfredang.github.io/arvr-playground/>
+
 **Shared runtime:** `../../webapp/` at <http://127.0.0.1:4173>
 
 ## Goal

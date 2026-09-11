@@ -1,7 +1,11 @@
 # Lab 05 — Plane Detection, Hit Test and Anchors
 
-**Duration:** 90 minutes  
-**Alignment:** LO2 · K5 · K6  
+**Duration:** 90 minutes
+
+**Alignment:** LO2 · K5 · K6
+
+**Try the live Playground:** <https://alfredang.github.io/arvr-playground/>
+
 **Shared runtime:** `../../webapp/` at <http://127.0.0.1:4173>
 
 ## Goal

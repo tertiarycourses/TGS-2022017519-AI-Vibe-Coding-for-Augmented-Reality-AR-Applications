@@ -1,6 +1,8 @@
 # Labs
 
-Each lab is individually runnable and includes a detailed guide, vibe-coding script, scene contract, verifier, and local AR asset.
+**Try the live AR/VR Playground:** <https://alfredang.github.io/arvr-playground/> — pure HTML/CSS/JavaScript in the browser; no installation required.
+
+Each lab is individually runnable and includes a detailed guide, vibe-coding script, scene contract, verifier, and local AR asset. Use the local runtime when a lab asks you to edit source code.
 
 1. [Lab 01 — Scene Brief and Prompt Contract](lab-01-scene-brief-and-prompt-contract/README.md) — LO1 · K3 · A1 · 60 min
 2. [Lab 02 — Storyboard and Spatial UI](lab-02-storyboard-and-spatial-ui/README.md) — LO1 · K1 · K2 · A2 · 75 min

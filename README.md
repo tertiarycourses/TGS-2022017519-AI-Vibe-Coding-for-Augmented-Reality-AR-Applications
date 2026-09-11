@@ -10,7 +10,7 @@
 
 **Build spatial experiences from natural-language intent, inspect the generated contract, and prove the runtime.**
 
-[Course page](https://www.tertiarycourses.com.sg/wsq-ai-vibe-coding-for-augmented-reality-ar-applications.html) · [Report an issue](https://github.com/tertiarycourses/TGS-2022017519-AI-Vibe-Coding-for-Augmented-Reality-AR-Applications/issues)
+[Try the live AR/VR Playground](https://alfredang.github.io/arvr-playground/) · [Course page](https://www.tertiarycourses.com.sg/wsq-ai-vibe-coding-for-augmented-reality-ar-applications.html) · [Report an issue](https://github.com/tertiarycourses/TGS-2022017519-AI-Vibe-Coding-for-Augmented-Reality-AR-Applications/issues)
 
 </div>
 
@@ -20,7 +20,7 @@
 
 ## About
 
-This learner repository supports **TGS-2022017519**, a two-day WSQ course on AI-assisted AR/VR prototyping. It combines a localhost WebXR studio, eight connected labs, a detailed Learner Guide, and visual v9.0 course slides.
+This learner repository supports **TGS-2022017519**, a two-day WSQ course on AI-assisted AR/VR prototyping. It combines a [live no-install Playground](https://alfredang.github.io/arvr-playground/), a localhost WebXR studio for source editing, eight connected labs, a detailed Learner Guide, and visual v9.1 course slides.
 
 The coding assistant accelerates implementation, but the learner remains responsible for the scene contract, code review, runtime evidence, safety boundaries, and final acceptance.
 
@@ -67,6 +67,8 @@ Each lab contains its own `vibe-script.md`, `scene.json`, automated `verify.mjs`
 
 Prerequisites: a current Node.js LTS release and a modern Chromium-based browser. Immersive AR/VR requires a compatible device and browser; the desktop preview is the supported fallback.
 
+Try the static HTML/CSS/JavaScript app first: **[Open the live AR/VR Playground](https://alfredang.github.io/arvr-playground/)**.
+
 ```bash
 cd webapp
 npm install --legacy-peer-deps
@@ -84,7 +86,7 @@ node ../labs/lab-01-scene-brief-and-prompt-contract/verify.mjs
 
 ```text
 .
-├── courseware/             # v9.0 learner artifacts and visual assets
+├── courseware/             # v9.1 learner artifacts and visual assets
 ├── labs/                   # eight self-contained lab folders
 ├── webapp/                 # Vite + Three.js localhost studio
 ├── LG-*.md                 # searchable Learner Guide mirror
@@ -107,7 +109,7 @@ Generated code is a proposal until the contract, diff, tests, runtime state, and
 
 ## Courseware
 
-- [Trainer slides v9.0](courseware/AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications-v9.0.pdf)
+- [Trainer slides v9.1](courseware/AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications-v9.1.pdf)
 - [Learner Guide](courseware/LG-AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications.pdf)
 - [Lesson Plan](courseware/LP-AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications.pdf)
 

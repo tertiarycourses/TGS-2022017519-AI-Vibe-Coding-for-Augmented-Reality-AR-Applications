@@ -1,7 +1,11 @@
 # Lab 06 — Raycast, Touch and Spatial Feedback
 
-**Duration:** 75 minutes  
-**Alignment:** LO2 · K2 · A3  
+**Duration:** 75 minutes
+
+**Alignment:** LO2 · K2 · A3
+
+**Try the live Playground:** <https://alfredang.github.io/arvr-playground/>
+
 **Shared runtime:** `../../webapp/` at <http://127.0.0.1:4173>
 
 ## Goal

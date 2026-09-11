@@ -1,7 +1,11 @@
 # Lab 01 — Scene Brief and Prompt Contract
 
-**Duration:** 60 minutes  
-**Alignment:** LO1 · K3 · A1  
+**Duration:** 60 minutes
+
+**Alignment:** LO1 · K3 · A1
+
+**Try the live Playground:** <https://alfredang.github.io/arvr-playground/>
+
 **Shared runtime:** `../../webapp/` at <http://127.0.0.1:4173>
 
 ## Goal

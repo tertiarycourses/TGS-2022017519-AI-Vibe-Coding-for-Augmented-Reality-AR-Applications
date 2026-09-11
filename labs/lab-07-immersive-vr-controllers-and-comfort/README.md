@@ -1,7 +1,11 @@
 # Lab 07 — Immersive VR, Controllers and Comfort
 
-**Duration:** 75 minutes  
-**Alignment:** LO3 · K7  
+**Duration:** 75 minutes
+
+**Alignment:** LO3 · K7
+
+**Try the live Playground:** <https://alfredang.github.io/arvr-playground/>
+
 **Shared runtime:** `../../webapp/` at <http://127.0.0.1:4173>
 
 ## Goal
