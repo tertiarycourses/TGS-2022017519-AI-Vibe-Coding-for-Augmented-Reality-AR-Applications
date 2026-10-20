@@ -14,6 +14,15 @@
 
 </div>
 
+| Course detail | Information |
+|---|---|
+| Course code | `TGS-2022017519` |
+| Programme | WSQ |
+| Duration | 2 days, 16 hours (including 2 hours of assessment) |
+| Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-ai-vibe-coding-for-augmented-reality-ar-applications.html) |
+| Funding | Up to 50% SkillsFuture course fee funding, or up to 70% for eligible SME employees and Singapore Citizens aged 40 and above. Eligibility and terms apply. |
+| Courseware | Version 9.1 |
+
 ## Screenshot
 
 ![Screenshot of the localhost AR scene preview](courseware/assets/app-preview-ar.png)
@@ -23,6 +32,18 @@
 This learner repository supports **TGS-2022017519**, a two-day WSQ course on AI-assisted AR/VR prototyping. It combines a [live no-install Playground](https://alfredang.github.io/arvr-playground/), a localhost WebXR studio for source editing, eight connected labs, a detailed Learner Guide, and visual v9.1 course slides.
 
 The coding assistant accelerates implementation, but the learner remains responsible for the scene contract, code review, runtime evidence, safety boundaries, and final acceptance.
+
+## Learning outcomes
+
+- LO1: Translate specifications and write storyboards for AR applications using spatial user-interface principles.
+- LO2: Apply AR working principles to create procedures and review AR runtimes for usability and clarity.
+- LO3: Overlay virtual objects on the real world, distinguish AR from VR, and advise developers on effective adjustments.
+
+## Topics covered
+
+1. AR User Interface Design and Storyboarding with AI Vibe Coding
+2. AR Application Development with Localhost WebXR
+3. Testing, Reviewing and Optimising AR/VR Applications
 
 ## What is included
 
@@ -109,11 +130,11 @@ Generated code is a proposal until the contract, diff, tests, runtime state, and
 
 ## Courseware
 
-- [Trainer slides v9.1](courseware/AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications-v9.1.pdf)
-- [Learner Guide](courseware/LG-AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications.pdf)
-- [Lesson Plan](courseware/LP-AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications.pdf)
+- Trainer slides v9.1 — [PPTX](courseware/AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications-v9.1.pptx) and [PDF](courseware/AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications-v9.1.pdf)
+- Learner Guide — [DOCX](courseware/LG-AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications.docx), [PDF](courseware/LG-AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications.pdf) and [Markdown](LG-AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications.md)
+- Lesson Plan — [DOCX](courseware/LP-AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications.docx) and [PDF](courseware/LP-AI%20Vibe%20Coding%20for%20Augmented%20Reality%20%28AR%29%20Applications.pdf)
 
-Assessment instruments and trainer answer keys are intentionally excluded from this public repository.
+Assessment instruments, trainer answer keys, the Facilitator Guide, the Assessment Plan and source reference material are trainer-only and are intentionally excluded from this public repository.
 
 ## Developed by
 
